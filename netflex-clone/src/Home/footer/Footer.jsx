@@ -62,7 +62,7 @@ const Footer = () => {
         </select>
       </div>
 
-      <p className="footer-country">Netflix Ethiopia</p>
+      <p className="footer-country"><span>&copy;</span> Netflix Ethiopia</p>
     </footer>
   );
 };
