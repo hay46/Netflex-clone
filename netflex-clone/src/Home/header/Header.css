@@ -1,0 +1,121 @@
+/* ===== Global Safety ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* ===== Header Container ===== */
+.header-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100vw;
+  height: 68px;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.85),
+    rgba(0, 0, 0, 0.3)
+  );
+  z-index: 1000;
+  overflow-x: hidden;
+}
+
+/* ===== Left Section ===== */
+.un-ordered {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  min-width: 0; /* prevents flex overflow */
+}
+
+/* Netflix Logo */
+.netflix-logo {
+  width: 110px;
+  cursor: pointer;
+}
+
+/* ===== Menu List ===== */
+.un-ordered-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.un-ordered-list li {
+  color: #e5e5e5;
+  font-size: 14px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.un-ordered-list li:hover {
+  color: #c5020c;
+}
+
+.header-home-pages {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* ===== Right Icons ===== */
+.header-page > ul {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+}
+
+/* Icons */
+.search-icon img,
+.notification-icon img,
+.liked-icon img {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  transition: transform 0.25s ease;
+}
+
+.search-icon img:hover,
+.notification-icon img:hover,
+.liked-icon img:hover {
+  transform: scale(1.15);
+}
+
+/* ===== Responsive Fix ===== */
+@media (max-width: 900px) {
+  .un-ordered-list {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-page {
+    padding: 0 14px;
+  }
+
+  .netflix-logo {
+    width: 90px;
+  }
+
+  .search-icon img,
+  .notification-icon img,
+  .liked-icon img {
+    width: 20px;
+    height: 20px;
+  }
+}

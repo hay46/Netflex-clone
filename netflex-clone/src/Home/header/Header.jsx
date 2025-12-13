@@ -1,8 +1,9 @@
 import React from 'react'
 import './Header.css'
 import  netflix  from '../../Assets/image.png';
-import searchIcon from '../../Assets/image copy.png'
-import notification from '../../Assets/notficatin-icon copy.png'
+import searchIcon from '../../Assets/image copy.png';
+import notification from '../../Assets/notficatin-icon.png';
+import likedIcon from '../../Assets/liked-Icon.png';
 const Header = () => {
   return (
     <div className="header-page">
@@ -20,15 +21,17 @@ const Header = () => {
         </ul>
       </div>
 
-      <div>
+      <ul>
         <li className="search-icon">
           <img src={searchIcon} alt="search-icon" />
         </li>
         <li className="notification-icon">
-          <img src={notification} alt="" />
+          <img src={notification} alt="" className="notification-icon-image" />
         </li>
-        <li className="liked-icon"></li>
-      </div>
+        <li className="liked-icon">
+          <img src={likedIcon} alt="liked-icon" />
+        </li>
+      </ul>
     </div>
   );
 }
