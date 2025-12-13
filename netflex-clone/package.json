@@ -14,9 +14,11 @@
     "axios": "^1.13.2",
     "framer-motion": "^12.23.26",
     "material-icons": "^1.13.14",
+    "movie-trailer": "^3.2.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-icons": "^5.5.0"
+    "react-icons": "^5.5.0",
+    "react-youtube": "^10.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
