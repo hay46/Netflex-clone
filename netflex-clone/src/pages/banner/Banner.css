@@ -1,7 +1,88 @@
-*{
-    margin: 0px;
-    padding: 0px;
+/* Main banner */
+.banner {
+  position: relative;
+  height: 80vh;
+  color: #fff;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
 }
-.banner{
-    color: aqua;
+
+/* Content container */
+.banner-content {
+  margin-left: 4rem;
+  padding-top: 8rem;
+  max-width: 40%;
+  z-index: 2;
+}
+
+/* Movie title */
+.banner-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  padding-bottom: 0.5rem;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+/* Buttons wrapper */
+.banner-button {
+  margin-top: 1.5rem;
+}
+
+/* Play button */
+.banner-botton-player {
+  cursor: pointer;
+  color: #000;
+  font-weight: 700;
+  border: none;
+  padding: 0.6rem 2.2rem;
+  margin-right: 1rem;
+  border-radius: 0.3rem;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.banner-botton-player:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* My List button */
+.banner-button-my-list {
+  cursor: pointer;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  padding: 0.6rem 2rem;
+  border-radius: 0.3rem;
+  background-color: rgba(14, 14, 16, 0.7);
+  transition: all 0.3s ease;
+}
+
+.banner-button-my-list:hover {
+  background-color: rgba(109, 109, 110, 0.4);
+}
+
+/* Description */
+.banner-discription {
+  width: 100%;
+  max-width: 45rem;
+  line-height: 1.4;
+  padding-top: 1rem;
+  font-size: 1rem;
+  color: #e5e5e5;
+  text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.8);
+}
+
+/* Bottom fade effect */
+.banner-fadeBottom {
+  position: absolute;
+  bottom: 0;
+  height: 7.5rem;
+  width: 100%;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
 }
