@@ -59,7 +59,7 @@
 
 /* ===== Language Selector ===== */
 .footer-language {
-  margin-top: 30px;
+  margin-top: 31px;
 }
 
 .footer-language select {
@@ -74,7 +74,7 @@
 /* ===== Country ===== */
 .footer-country {
   margin-top: 25px;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 /* ===== Responsive ===== */
@@ -86,7 +86,7 @@
 
 @media (max-width: 480px) {
   .footer {
-    padding: 40px 6%;
+    padding: 41px 6%;
   }
 
   .footer-links {
