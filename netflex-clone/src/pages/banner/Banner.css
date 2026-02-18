@@ -55,7 +55,7 @@
   padding: 0.6rem 2rem;
   border-radius: 0.3rem;
   background-color: rgba(14, 14, 16, 0.7);
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
 }
 
 .banner-button-my-list:hover {
@@ -66,7 +66,7 @@
 .banner-discription {
   width: 100%;
   max-width: 45rem;
-  line-height: 1.4;
+  line-height: 1.5;
   padding-top: 1rem;
   font-size: 1rem;
   color: #e5e5e5;
