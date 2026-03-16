@@ -12,7 +12,7 @@
 /* Each row's title */
 .rowlist h2 {
   color: #fff;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   font-weight: 700;
   margin-left: 10px;
 }
@@ -38,7 +38,7 @@
   margin-right: 10px;
   transition: transform 0.45s;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 5px;
 }
 
 /* Hover zoom effect */
