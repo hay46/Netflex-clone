@@ -33,7 +33,7 @@ body {
 .un-ordered {
   display: flex;
   align-items: center;
-  gap: 31px;
+  gap: 30px;
   min-width: 0; /* prevents flex overflow */
 }
 
@@ -55,7 +55,7 @@ body {
 
 .un-ordered-list li {
   color: #e5e5e5;
-  font-size: 15px;
+  font-size: 16px;
   cursor: pointer;
   transition: color 0.3s ease;
 }
