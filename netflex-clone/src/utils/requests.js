@@ -1,5 +1,4 @@
 const API_KEY = import.meta.env.VITE_API_KEY;
-
 const requests = {
   fetchAction: `/discover/movie?api_key=${API_KEY}&with_genres=28`,
   fetchAdventure: `/discover/movie?api_key=${API_KEY}&with_genres=12`,
