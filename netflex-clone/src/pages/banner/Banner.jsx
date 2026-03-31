@@ -24,7 +24,7 @@ const Banner = () => {
     fetchData();
   }, []);
 function truncate(str,n){
-  return str?.length > n ? str.substr(0, n-1)  + '...': str;
+  return str?.length > n ? str.slice(0, n-1)  + '...': str;
 }
   return (
     <div
@@ -47,7 +47,7 @@ function truncate(str,n){
           <button className="banner-botton-player">play</button>
           <button className="banner-button-my-list">my List</button>
         </div>
-        <h1 className="banner-discription">{truncate(movie?.overview,200)}</h1>
+        <h1 className="banner-discription">{truncate(movie?.overview,150)}</h1>
       </div>
       <div className="banner-fadeBottom"></div>
     </div>

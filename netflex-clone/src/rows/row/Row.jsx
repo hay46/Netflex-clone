@@ -19,9 +19,9 @@ const Row = ({ title, fetchUrl, isLargerRow }) => {
         console.log("error fetching movies:", error);
       }
     };
+   
     fetchData();
   }, [fetchUrl]);
-
   const handleClick = (movie) => {
     if (trailerUrl) {
       setTrailerUrl("");
