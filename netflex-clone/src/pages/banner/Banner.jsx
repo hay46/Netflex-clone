@@ -10,14 +10,14 @@ const Banner = () => {
     const fetchData = async () => {
       try {
         const request = await axios.get(requests.fetchAction);
-        console.log(request);
+        // console.log(request);
         setMovie(
           request.data.results[
             Math.floor(Math.random() * request.data.results.length)
           ]
         );
       } catch (error) {
-        console.log("error", error);
+        // console.log("error", error);
       }
     };
 
