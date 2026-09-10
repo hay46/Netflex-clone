@@ -6,12 +6,12 @@ import Banner from "../pages/banner/Banner";
 import RowList from "../rows/rowList/RowList";
 const Home = () => {
   return (
-   <div>
+   <>
     <Header/>
     <Banner/>
     <RowList/>
     <Footer/>
-   </div>
+   </>
   );
 };
 
